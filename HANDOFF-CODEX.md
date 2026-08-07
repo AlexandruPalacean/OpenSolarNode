@@ -27,3 +27,27 @@ Status: completed on 2026-08-07 with stable KiCad 10.0.5.
 ### Commit
 
 - Implementation commit: `ce1ef5f` (`feat(kicad): create RevA hierarchical project structure`).
+
+## HANDOFF #001A - hardware-adjustable charge current
+
+Status: implemented as an unpopulated schematic reservation on 2026-08-07.
+
+### Frozen requirement recorded
+
+- RevA charge current is selected in hardware by `SW_CHG_CURRENT`, a 4-position DIP switch, and a programming resistor network.
+- The charger must operate without the MCU; DIP contacts must never carry charge-path current.
+- DIP hardware is THT/easy to hand solder; programming resistors are 0805 preferred and 0603 minimum.
+- PCB/silkscreen space is reserved for `CHARGE CURRENT`, the future mapping table, accessible switch orientation, and a future RevB digital-potentiometer option.
+
+### Schematic reservation completed
+
+- Added a labeled graphical configuration block to `01B_BQ24650.kicad_sch`.
+- Reserved the DIP-switch area, resistor-network area, `TP_CHG_PROGRAM` location, silkscreen intent, and RevB allowance.
+- No electrical symbols, connections, resistor values, current mapping, or digital potentiometer were added.
+
+### Deferred to DP-001 / HANDOFF #002
+
+- Exact resistor values and programming topology.
+- DIP truth table and treatment of unused combinations.
+- Final programming-node test-point connection.
+- Final silkscreen mapping.
