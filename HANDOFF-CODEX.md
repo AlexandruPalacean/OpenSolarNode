@@ -26,4 +26,4 @@ Status: completed on 2026-08-07 with stable KiCad 10.0.5.
 
 ### Commit
 
-- Implementation commit: pending at the time of this status entry; the exact hash will be appended in a follow-up metadata commit.
+- Implementation commit: `ce1ef5f` (`feat(kicad): create RevA hierarchical project structure`).
