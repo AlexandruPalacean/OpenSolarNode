@@ -2,6 +2,13 @@
 
 These instructions apply to the entire repository.
 
+## Team roles
+
+- **ChatGPT — Chief Hardware Architect:** owns architecture, component decisions, calculations, design constraints, and schematic/PCB review approval.
+- **Codex — Hardware Design Engineer:** implements approved decisions in KiCad, maintains libraries and documentation, validates implementation details, and keeps the repository and Git history clean.
+
+Codex must treat architectural input as a reviewed handoff, not infer missing major design decisions. Questions, conflicts, and implementation risks go back to the Chief Hardware Architect before the affected circuitry is committed.
+
 ## Architecture authority
 
 The browser ChatGPT design/review workflow owns hardware architecture, component selection, calculations, schematic and PCB review, EMC, and RF decisions.
