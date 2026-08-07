@@ -1,0 +1,1 @@
+(kicad_sch (version 20250114) (generator "eeschema") (generator_version "10.0") (uuid "7f1ab1af-c102-4d38-bb9c-200000000104") (paper "A4") (title_block (title "12V / 5V / 3V3 Power")) (lib_symbols) (sheet_instances (path "/" (page "5"))) (embedded_fonts no))
