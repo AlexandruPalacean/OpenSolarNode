@@ -1,1 +1,0 @@
-(kicad_sch (version 20250114) (generator "eeschema") (generator_version "10.0") (uuid "7f1ab1af-c102-4d38-bb9c-200000000105") (paper "A4") (title_block (title "MCU / USB")) (lib_symbols) (sheet_instances (path "/" (page "6"))) (embedded_fonts no))
